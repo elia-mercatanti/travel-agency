@@ -10,8 +10,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import travel_agency.travel.TouristSpot;
-
 public class TouristSpotTest {
 
 	private TouristSpot tourSpot;
@@ -89,6 +87,7 @@ public class TouristSpotTest {
 		assertEquals(7, tourSpot.getNumDays());
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Rule
 	  public ExpectedException exception = ExpectedException.none();
 	

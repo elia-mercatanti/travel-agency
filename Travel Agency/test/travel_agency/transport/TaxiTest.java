@@ -58,6 +58,7 @@ public class TaxiTest {
 	}
 	
 
+	@SuppressWarnings("deprecation")
 	@Rule
 	public ExpectedException exception = ExpectedException.none();
 	

@@ -70,6 +70,7 @@ public class SimpleTravelAdTest {
 		assertEquals(20, travelAd.getDepositePercentage(), EPSILON);
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Rule
 	  public ExpectedException exception = ExpectedException.none();
 	

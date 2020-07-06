@@ -7,7 +7,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import travel_agency.core.FleetVehicle;
 import travel_agency.exception.NoMoreAvailablePullmanException;
 import travel_agency.transport.Pullman;
 import travel_agency.users.Address;
@@ -43,6 +42,7 @@ public class FleetVehicleTest {
 	}
 	
 	
+	@SuppressWarnings("deprecation")
 	@Rule
 	  public ExpectedException exception = ExpectedException.none();
 	

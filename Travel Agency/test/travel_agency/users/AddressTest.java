@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import travel_agency.users.Address;
-
 public class AddressTest {
 
 	private Address address1;

@@ -72,6 +72,7 @@ public class AutumnPriceDecoratorTest {
 		assertEquals(20, apDec.getDepositePercentage(), EPSILON);
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Rule
 	  public ExpectedException exception = ExpectedException.none();
 	
